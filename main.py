@@ -1,5 +1,4 @@
 from asyncore import loop
-from curses.ascii import isdigit
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
