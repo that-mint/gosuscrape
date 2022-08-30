@@ -50,6 +50,3 @@ for i in range(40):
  
 my_df = pd.DataFrame(blahblah)
 my_df.to_csv('test.csv', index=False, header=["Rank", "Team", "Elo"])
-
-
-#rint(rankings)
