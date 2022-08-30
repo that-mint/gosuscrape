@@ -30,8 +30,9 @@ def splitresult(string):
     return (lsplit[0], rsplit[0], rsplit[1])
 
 blahblah = []
+n = 20
 
-for i in range(40):
+for i in range(1, n+1):
     params = (
         ('maxResults', '50'),
         ('page', i),
@@ -45,6 +46,7 @@ for i in range(40):
     teamsen = [team.get_text(" ", strip=True) for team in teams]
     for team in teamsen:
         splits = splitresult(team)
+        print(splitresult(team))
         blahblah.append(splits)
 
  
